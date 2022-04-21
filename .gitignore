@@ -1,4 +1,4 @@
-./BOLD5000
+./bold5000/
 
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
@@ -152,3 +152,4 @@ cython_debug/
 
 # pycharm
 .idea/
+.idea/*
