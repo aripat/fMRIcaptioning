@@ -1,10 +1,14 @@
 import os
 
 import pandas
+import nltk
 from nltk.corpus import wordnet as wn
 import pandas as pd
 from wordsegment import load, segment
 load()
+
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 stimuli_dir = os.path.join('bold5000', 'stimuli', 'Image_Labels')
 scenes = pd.read_csv(os.path.join(stimuli_dir, 'scene_final_labels.txt'), names=['scene'])
