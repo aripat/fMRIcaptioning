@@ -1,0 +1,90 @@
+hotel_lobby -> NN + NN, relazione holo-mer
+warehouse_outside -> NN + NN warehouse_outdoor
+lab_class -> NN + NN... lab
+front_foyer -> foyer
+
+outside/inside -> outdoor/indoor come "attributi"
+
+
+lab_class [] 
+warehouse_outside [] -> warehouse_outdoor
+front_foyer [] 
+hotel_lobby []
+city_street []
+church_inside [] -> church_indoor
+dry_mountains [] named entity
+copy_room [] 
+sculpture_garden [] 
+bathrooms_ink [] -> bathroom_sink 
+treehouse [] -> tree_house [w]
+front_lawn [] 
+mall_indoor [] 
+skatepark [] ** -> skate_park
+flower_shop [] 
+fishmarket [] ** -> fish_market
+fabric_store [] 
+campus_quad [] 
+van_interior []
+sand_dunes_desert_outdoor [] 0 -> desert_sand_dunes
+horse_race_track [] 
+art_studio [] 
+glaciers_outdoor [] -> glaciers [w]
+airplane_cabin [] 
+public_restroom [] -> restroom [w]
+ticket_counter [] 0
+dance_studio [] 0
+exercise_equipment [] 0
+soccer_field [] 0
+wine_vineyard [] 0
+martial_arts_class [] 0
+car_mechanic [] 0
+nail_salon [] 0
+bridal_boutique [] 0
+bike_rack [] 0
+childs_room [] 0
+parking_garage [] 0
+home_garden [] 0
+metro_inside [] 0
+cabin_indoors [] 0
+photographer_studio [] 0
+car_wash [] 0
+drycleaners [] 0
+rv_inside [] 0
+lighting_store [] 0
+forest_path [] 0
+eyeglass_store [] 0
+bakery_kitchen [] 0
+olympic_swimming_pool [] 0
+farmers_market [] 0
+music_store [] 0
+banquet_hall [] 0
+construction_site [] 0
+snow_mountains [] 0
+poolhall [] 0
+tv_studio [] 0
+balcony_out [] 0
+kindergarten_classroom [] 0
+rural_road [] 0
+desert_vegetation [] 0
+breakroom [] 0
+weight_room [] 0
+balcony_in [] 0
+whitewater_rapids [] 0
+mini_golf [] 0
+hedge_maze [] 0
+restaurant_kitchen [] 0
+stream_outdoor [] 0
+bistro_outdoor [] 0
+apple_store [] 0
+bamboo_forest [] 0
+bus_shelter [] 0
+library_aisle [] 0
+waterfall_outdoor [] 0
+elevator_outside [] 0
+home_garage [] 0
+yoga_studio [] 0
+on_boat [] 0
+spa_room [] 0
+fitting_room [] 0
+auto_showroom [] 0
+race_car_course [] 0
