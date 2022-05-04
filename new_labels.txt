@@ -12,7 +12,7 @@ front_foyer []
 hotel_lobby []
 city_street []
 church_inside [] -> church_indoor
-dry_mountains [] named entity
+dry_mountains [] aggettivo
 copy_room [] 
 sculpture_garden [] 
 bathrooms_ink [] -> bathroom_sink 
@@ -24,67 +24,68 @@ flower_shop []
 fishmarket [] ** -> fish_market
 fabric_store [] 
 campus_quad [] 
-van_interior []
+van_interior ** [] -> interior è un attributo per veicoli
 sand_dunes_desert_outdoor [] 0 -> desert_sand_dunes
-horse_race_track [] 
+horse_racetrack [] (racetrack [w])
 art_studio [] 
 glaciers_outdoor [] -> glaciers [w]
 airplane_cabin [] 
 public_restroom [] -> restroom [w]
-ticket_counter [] 0
-dance_studio [] 0
-exercise_equipment [] 0
-soccer_field [] 0
-wine_vineyard [] 0
-martial_arts_class [] 0
-car_mechanic [] 0
-nail_salon [] 0
-bridal_boutique [] 0
-bike_rack [] 0
-childs_room [] 0
-parking_garage [] 0
-home_garden [] 0
-metro_inside [] 0
-cabin_indoors [] 0
-photographer_studio [] 0
-car_wash [] 0
-drycleaners [] 0
-rv_inside [] 0
-lighting_store [] 0
-forest_path [] 0
-eyeglass_store [] 0
-bakery_kitchen [] 0
-olympic_swimming_pool [] 0
-farmers_market [] 0
-music_store [] 0
-banquet_hall [] 0
-construction_site [] 0
-snow_mountains [] 0
-poolhall [] 0
-tv_studio [] 0
-balcony_out [] 0
-kindergarten_classroom [] 0
-rural_road [] 0
-desert_vegetation [] 0
-breakroom [] 0
-weight_room [] 0
-balcony_in [] 0
-whitewater_rapids [] 0
-mini_golf [] 0
-hedge_maze [] 0
-restaurant_kitchen [] 0
-stream_outdoor [] 0
-bistro_outdoor [] 0
-apple_store [] 0
-bamboo_forest [] 0
-bus_shelter [] 0
-library_aisle [] 0
-waterfall_outdoor [] 0
-elevator_outside [] 0
-home_garage [] 0
-yoga_studio [] 0
-on_boat [] 0
-spa_room [] 0
-fitting_room [] 0
-auto_showroom [] 0
-race_car_course [] 0
+ticket_counter [] -> ticket_office [w]
+dance_studio []
+exercise_equipment []
+soccer_field []
+wine_vineyard [] -> vineyard [w]
+martial_arts_class []
+car_mechanic [] -> car-mechanic [w]
+nail_salon []
+bridal_boutique []
+bike_rack []
+childs_room []
+parking_garage [] -> parking_indoor
+home_garden []
+metro_inside [] -> metro_interior
+cabin_indoors [] -> cabin_indoor (wordnet secondo synset)
+photographer_studio []
+car_wash [] -> car_washing
+dry_cleaners [w] (luogo non persone)
+rv_inside [] -> rv_interior
+lighting_store [] -> lamp_store
+forest_path []
+eyeglass_store []
+bakery_kitchen []
+olympic_swimming_pool []
+farmers_market [] -> farmer_mart
+*************************** aggettivi indoor/out/interior specificati
+music_store [] -> music_store_indoor
+banquet_hall [] -> banquet_hall_indoor
+construction_site [] -> construction_site_outdoor
+snow_mountains [] aggettivo -> snow_mountain_outdoor
+pool_hall [] -> pool_hall_indoor
+tv_studio [] -> tv_studio_indoor
+balcony_out [] -> balcony [w]
+kindergarten_classroom [] -> kindergarten_classroom_indoor
+rural_road [] -> rural_road_outdoor
+desert_vegetation []
+break_room [] -> break_room_indoor
+weight_room [] -> weight_room_indoor
+balcony_in [] -> balcony [w]
+whitewater_rapids [] -> rapids_outdoor
+mini_golf [] 0 ******
+hedge_maze [] *** -> maze_outdoor
+restaurant_kitchen [] -> restaurant_kitchen_indoor
+stream_outdoor []
+bistro_outdoor []
+apple_store [] -> apple_store_indoor
+bamboo_forest [] -> bamboo_forest_outdoor
+bus_shelter [] -> bus_shelter_outdoor
+library_aisle [] -> library_aisle_indoor
+waterfall_outdoor []
+elevator_outside [] -> elevator_exterior
+home_garage [] -> home_garage_indoor
+yoga_studio [] -> yoga_studio_indoor
+on_boat [] -> boat_exterior
+spa_room [] -> spa_room_indoor
+fitting_room [] -> fitting_room_indoor
+car_showroom [] -> car_showroom_indoor
+race_car_course [] -> car_racetrack_outdoor
