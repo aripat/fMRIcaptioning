@@ -1,4 +1,4 @@
-lab_class []
+lab_class [] -> lab_classroom
 warehouse_outside [] -> warehouse_outdoor
 front_foyer []
 hotel_lobby []
@@ -8,7 +8,7 @@ dry_mountains []
 copy_room []
 sculpture_garden []
 bathrooms_ink [] -> bathroom_sink
-treehouse [] -> tree_house
+treehouse [] -> tree+house
 front_lawn []
 mall_indoor []
 skate_park [] -> skate_park

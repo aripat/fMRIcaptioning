@@ -19,10 +19,12 @@ for j in range(len(labels)):
 
 labels = np.array(labels, dtype=object)
 
+# creazione dataframe delle label
+
 adj = {'outdoor':1, 'indoor':1, 'exterior':1, 'interior':1}
 keys = ['original', 'new', 'spec', 'concept', 'adj', 'syn_spec', 'syn_concept']
 
-data = []
+data_labels = []
 
 for i in range(len(labels)):
     dict = {keys[0]: labels[i, 0],
@@ -40,12 +42,37 @@ for i in range(len(labels)):
     dict['syn_spec'] = [x.name() for x in wn.synsets(dict['spec'], pos=['n', 'a'])]
     dict['syn_concept'] = [x.name() for x in  wn.synsets(dict['concept'], pos='n')]
 
-    data.append(dict)
+    data_labels.append(dict)
 
-data = pd.DataFrame(data)
+data_labels = pd.DataFrame(data_labels)
 
 if not os.path.exists('new_labels_scene.csv'):
-    data.to_csv('new_labels_scene.csv')
+    data_labels.to_csv('new_labels_scene.csv')
 
-print(data['syn_concept'].values)
+# creazione dataframe con tutti i synset e quelli scelti
+
+data_synset = []
+
+keys = ['spec', 'concept', 'syn_spec', 'syn_concept', 'def_concept', 'chosen_concept', 'syn_chosen_concept']
+
+for i in range(len(labels)):
+    dict = {'spec': data_labels['spec'].values[i],
+            'concept': data_labels['concept'].values[i]}
+
+    dict['syn_concept'] = [x.name() for x in wn.synsets(dict['concept'], pos='n')]
+
+    dict['syn_chosen_concept'] = []
+    dict['def_chosen_concept'] = []
+
+    if len(dict['syn_concept']) == 1:
+        dict['syn_chosen_concept'] = dict['syn_concept']
+        dict['def_chosen_concept'] = [wn.synset(dict['syn_concept'][0]).definition()]
+
+    data_synset.append(dict)
+
+data_synset = pd.DataFrame(data_synset)
+
+if not os.path.exists('ari_new_labels.csv'):
+    data_synset.to_csv('ari_new_labels.csv')
+
 
