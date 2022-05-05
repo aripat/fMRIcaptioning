@@ -37,15 +37,15 @@ for i in range(len(labels)):
     for j in range(len(l)):
         dict[keys[j+2]] = l[j].replace('+', '_')
 
-    dict['syn_spec'] = wn.synsets(dict['spec'], pos=['n', 'a'])
-    dict['syn_concept'] = wn.synsets(dict['concept'], pos='n')
+    dict['syn_spec'] = [x.name() for x in wn.synsets(dict['spec'], pos=['n', 'a'])]
+    dict['syn_concept'] = [x.name() for x in  wn.synsets(dict['concept'], pos='n')]
 
     data.append(dict)
 
 data = pd.DataFrame(data)
 
-#if not os.path.exists('new_labels_scene.csv'):
-data.to_csv('new_labels_scene.csv')
+if not os.path.exists('new_labels_scene.csv'):
+    data.to_csv('new_labels_scene.csv')
 
 print(data['syn_concept'].values)
 
