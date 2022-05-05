@@ -27,7 +27,7 @@ fishmarket [] ** -> fish_market
 fabric_store [] 
 campus_quad [] 
 van_interior ** [] -> interior è un attributo per veicoli
-sand_dunes_desert_outdoor [] 0 -> desert_sand_dune_outdoor (sand_dune [w])
+sand_dunes_desert_outdoor [] 0 -> desert_sand+dune_outdoor (sand_dune [w])
 horse_racetrack [] (racetrack [w])
 art_studio [] 
 glaciers_outdoor [] -> glaciers [w]
@@ -38,7 +38,7 @@ dance_studio []
 exercise_equipment []
 soccer_field []
 wine_vineyard [] -> vineyard [w]
-martial_arts_class []
+martial+arts_class []
 car_mechanic [] -> car-mechanic [w]
 nail_salon []
 bridal_boutique []
@@ -56,7 +56,7 @@ lighting_store [] -> lamp_store
 forest_path []
 eyeglass_store []
 bakery_kitchen []
-olympic_swimming_pool []
+olympic_swimming+pool []
 farmers_market [] -> farmer_mart
 *************************** aggettivi indoor/out/interior specificati
 music_store [] -> music_store_indoor
@@ -68,7 +68,7 @@ tv_studio [] -> tv_studio_indoor
 balcony_out [] -> balcony [w]
 kindergarten_classroom [] -> kindergarten_classroom_indoor
 rural_road [] -> rural_road_outdoor
-desert_vegetation []
+desert_vegetation [] -> desert_vegetation_outdoor
 break_room [] -> break_room_indoor
 weight_room [] -> weight_room_indoor
 balcony_in [] -> balcony [w]
@@ -78,7 +78,7 @@ hedge_maze [] ****** -> maze_outdoor
 restaurant_kitchen [] -> restaurant_kitchen_indoor
 stream_outdoor []
 bistro_outdoor []
-apple_store [] -> apple_store_indoor
+apple_store [] -> APPLE_store_indoor
 bamboo_forest [] -> bamboo_forest_outdoor
 bus_shelter [] -> bus_shelter_outdoor
 library_aisle [] -> library_aisle_indoor

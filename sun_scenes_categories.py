@@ -23,7 +23,7 @@ img_filenames = os.listdir(images_dir)
 data = []
 for x in scenes['scene'].values:
     scene = '_'.join(segment(x))
-    scene = nltk.pos_tag(nltk.word_tokenize(scene.))
+    scene = nltk.pos_tag(nltk.word_tokenize(scene))
     filenames = [file for file in img_filenames if file.startswith(x)]
     candidates = scene.split('_')
     data.append({"scene": scene,
@@ -67,4 +67,21 @@ plt.subplots_adjust(wspace=0)
 #plt.show()
 if not os.path.exists("missing_scenes.png"):
     plt.savefig("missing_scenes.png")
+
+with open('new_labels_scene.txt') as fd:
+    labels = fd.readlines()
+
+for l in labels:
+    l = l.split('[]')
+    for i in range(len(l)):
+        l[i] = l[i].strip()
+    if len(l[1]) > 1:
+        l[1] = (l[1].split("->")[1]).strip()
+    else:
+        l[1] = l[0]
+
+print(labels)
+
+
+
 
