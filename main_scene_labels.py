@@ -3,7 +3,7 @@ import numpy as np
 import os
 from nltk.corpus import wordnet as wn
 
-with open('new_labels_scene.txt') as fd:
+with open('scene_labels/new_labels_scene.txt') as fd:
     labels = fd.readlines()
 
 for j in range(len(labels)):
@@ -46,10 +46,10 @@ for i in range(len(labels)):
 
 data_labels = pd.DataFrame(data_labels)
 
-if not os.path.exists('new_labels_scene.csv'):
-    data_labels.to_csv('new_labels_scene.csv')
+if not os.path.exists('scene_labels/new_labels_scene.csv'):
+    data_labels.to_csv('scene_labels/new_labels_scene.csv')
 
-# creazione dataframe con tutti i synset e quelli scelti
+"""# creazione dataframe con tutti i synset e quelli scelti
 
 data_synset = []
 
@@ -72,7 +72,7 @@ for i in range(len(labels)):
 
 data_synset = pd.DataFrame(data_synset)
 
-if not os.path.exists('ari_new_labels.csv'):
-    data_synset.to_csv('ari_new_labels.csv')
+if not os.path.exists('new_labels_with_syn_concept_scene.csv'):
+    data_synset.to_csv('new_labels_with_syn_concept_scene.csv')"""
 
 

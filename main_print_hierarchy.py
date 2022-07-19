@@ -3,8 +3,11 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
 from nltk.corpus import wordnet as wn
+import os
 
-syns = pd.read_csv('elena_new_labels_scene_definitions.csv')
+n = print(len(os.listdir()))
+
+syns = pd.read_csv('new_labels.csv')
 syns = syns[syns['syn_chosen_concept'].notna()]['syn_chosen_concept']
 hierarchy = []
 nodes = []
@@ -17,6 +20,7 @@ for syn in syns.values:
         if hypers[i] not in links:
             links[hypers[i]] = []
         links[hypers[i]].append(hypers[i+1])
+
 
 
 G = nx.from_dict_of_lists(links)
