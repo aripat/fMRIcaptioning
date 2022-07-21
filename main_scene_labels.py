@@ -21,7 +21,7 @@ labels = np.array(labels, dtype=object)
 
 # creazione dataframe delle label
 
-adj = {'outdoor':1, 'indoor':1, 'exterior':1, 'interior':1}
+adj = {'outdoor': 1, 'indoor': 1, 'exterior': 1, 'interior': 1}
 keys = ['original', 'new', 'spec', 'concept', 'adj', 'syn_spec', 'syn_concept']
 
 data_labels = []
@@ -37,10 +37,10 @@ for i in range(len(labels)):
         l.insert(0, '')
 
     for j in range(len(l)):
-        dict[keys[j+2]] = l[j].replace('+', '_')
+        dict[keys[j + 2]] = l[j].replace('+', '_')
 
     dict['syn_spec'] = [x.name() for x in wn.synsets(dict['spec'], pos=['n', 'a'])]
-    dict['syn_concept'] = [x.name() for x in  wn.synsets(dict['concept'], pos='n')]
+    dict['syn_concept'] = [x.name() for x in wn.synsets(dict['concept'], pos='n')]
 
     data_labels.append(dict)
 
@@ -74,5 +74,3 @@ data_synset = pd.DataFrame(data_synset)
 
 if not os.path.exists('new_labels_with_syn_concept_scene.csv'):
     data_synset.to_csv('new_labels_with_syn_concept_scene.csv')"""
-
-

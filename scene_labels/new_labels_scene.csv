@@ -1,5 +1,5 @@
 ,original,new,spec,concept,adj,syn_spec,syn_concept
-0,lab_class,lab_class,lab,class,,[Synset('lab.n.01')],"[Synset('class.n.01'), Synset('class.n.02'), Synset('class.n.03'), Synset('course.n.01'), Synset('class.n.05'), Synset('class.n.06'), Synset('class.n.07'), Synset('class.n.08')]"
+0,lab_class,lab_classroom,lab,classroom,,[Synset('lab.n.01')],[Synset('classroom.n.01')]"
 1,warehouse_outside,warehouse_outdoor,,warehouse,outdoor,[],[Synset('warehouse.n.01')]
 2,front_foyer,front_foyer,front,foyer,,"[Synset('front.n.01'), Synset('battlefront.n.01'), Synset('front.n.03'), Synset('front.n.04'), Synset('front_man.n.01'), Synset('front.n.06'), Synset('front.n.07'), Synset('presence.n.02'), Synset('front.n.09'), Synset('movement.n.04'), Synset('front.a.01')]",[Synset('anteroom.n.01')]
 3,hotel_lobby,hotel_lobby,hotel,lobby,,[Synset('hotel.n.01')],"[Synset('anteroom.n.01'), Synset('lobby.n.02'), Synset('lobby.n.03')]"
