@@ -9,7 +9,7 @@ dry_mountains,dry,mountains,"['mountain.n.01', 'batch.n.02']",mountain.n.01,a la
 copy_room,copy,room,"['room.n.01', 'room.n.02', 'room.n.03', 'room.n.04']",room.n.01,an area within a building enclosed by walls and floor and ceiling
 sculpture_garden,sculpture,garden,"['garden.n.01', 'garden.n.02', 'garden.n.03']",garden.n.01,a plot of ground where plants are cultivated
 bathroom_sink,bathroom,sink,"['sink.n.01', 'sink.n.02', 'sinkhole.n.01', 'cesspool.n.01']",sink.n.01,plumbing fixture consisting of a water basin fixed to a wall or floor and having a drainpipe
-tree+house,,tree+house,['tree_house.n.01'],tree_house.n.01,a playhouse built in the branches of a tree
+tree_house,,tree_house,['tree_house.n.01'],tree_house.n.01,a playhouse built in the branches of a tree
 front_lawn,front,lawn,['lawn.n.01'],lawn.n.01,a field of cultivated and mowed grass
 mall_indoor,,mall,"['promenade.n.02', 'plaza.n.02']",plaza.n.02,mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers; usually includes restaurants and a convenient parking area; a modern version of the traditional marketplace
 skate_park,skate,park,"['park.n.01', 'park.n.02', 'ballpark.n.01', 'park.n.04', 'parking_lot.n.01', 'park.n.06']",park.n.02,a piece of open land for recreational use in an urban area
@@ -18,7 +18,7 @@ fish_market,fish,market,"['market.n.01', 'market.n.02', 'grocery_store.n.01', 'm
 fabric_store,fabric,store,"['shop.n.01', 'store.n.02', 'memory.n.04', 'storehouse.n.01']",shop.n.01,a mercantile establishment for the retail sale of goods or services
 campus_quad,campus,quad,"['quadruplet.n.02', 'quadriceps.n.01', 'quad.n.03', 'quad.n.04']",quad.n.04,a rectangular area surrounded on all sides by buildings
 van_interior,,van,"['avant-garde.n.01', 'vanguard.n.01', 'van.n.03', 'van.n.04', 'van.n.05']",van.n.05,a truck with an enclosed cargo space
-desert_sand+dune_outdoor,desert,sand+dune,['dune.n.01'],dune.n.01,a ridge of sand created by the wind; found in deserts or near lakes and oceans
+19,desert,sand_dune,['dune.n.01'],dune.n.01,a ridge of sand created by the wind; found in deserts or near lakes and oceans
 horse_racetrack,horse,racetrack,['racetrack.n.01'],racetrack.n.01,a course over which races are run
 art_studio,art,studio,"['studio.n.01', 'studio_apartment.n.01', 'studio.n.03']",studio.n.01,workplace for the teaching or practice of an art
 glaciers,,glaciers,['glacier.n.01'],glacier.n.01,a slowly moving mass of ice
@@ -29,7 +29,7 @@ dance_studio,dance,studio,"['studio.n.01', 'studio_apartment.n.01', 'studio.n.03
 exercise_equipment,exercise,equipment,['equipment.n.01'],equipment.n.01,an instrumentality needed for an undertaking or to perform a service
 soccer_field,soccer,field,"['field.n.01', 'battlefield.n.01', 'field.n.03', 'discipline.n.01', 'field.n.05', 'field.n.06', 'sphere.n.01', 'playing_field.n.02', 'plain.n.01', 'field.n.10', 'field.n.11', 'field.n.12', 'field.n.13', 'field.n.14', 'field.n.15', 'field.n.16', 'airfield.n.01']",playing_field.n.02,a piece of land prepared for playing a game
 vineyard,,vineyard,['vineyard.n.01'],vineyard.n.01,a farm of grapevines where wine grapes are produced
-martial+arts_class,martial+arts,class,"['class.n.01', 'class.n.02', 'class.n.03', 'course.n.01', 'class.n.05', 'class.n.06', 'class.n.07', 'class.n.08']",course.n.01,education imparted in a series of lessons or meetings
+30,martial_arts,class,"['class.n.01', 'class.n.02', 'class.n.03', 'course.n.01', 'class.n.05', 'class.n.06', 'class.n.07', 'class.n.08']",course.n.01,education imparted in a series of lessons or meetings
 car-mechanic,,car-mechanic,['automobile_mechanic.n.01'],automobile_mechanic.n.01,someone whose occupation is repairing and maintaining automobiles
 nail_salon,nail,salon,"['salon.n.01', 'salon.n.02', 'salon.n.03']",salon.n.0,a shop where hairdressers and beauticians work
 bridal_boutique,bridal,boutique,['boutique.n.01'],boutique.n.01,a shop that sells women's clothes and jewelry
@@ -47,7 +47,7 @@ lamp_store,lamp,store,"['shop.n.01', 'store.n.02', 'memory.n.04', 'storehouse.n.
 forest_path,forest,path,"['way.n.05', 'path.n.02', 'path.n.03', 'path.n.04']",path.n.04,a line or route along which something travels or moves
 eyeglass_store,eyeglass,store,"['shop.n.01', 'store.n.02', 'memory.n.04', 'storehouse.n.01']",shop.n.01,a mercantile establishment for the retail sale of goods or services
 bakery_kitchen,bakery,kitchen,['kitchen.n.01'],kitchen.n.01,a room equipped for preparing meals
-olympic_swimming+pool,olympic,swimming+pool,['swimming_pool.n.01'],swimming_pool.n.01,pool that provides a facility for swimming
+48,olympic,swimming_pool,['swimming_pool.n.01'],swimming_pool.n.01,pool that provides a facility for swimming
 farmer_mart,farmer,mart,['marketplace.n.02'],marketplace.n.02,an area in a town where a public mercantile establishment is set up
 music_store_indoor,music,store,"['shop.n.01', 'store.n.02', 'memory.n.04', 'storehouse.n.01']",shop.n.01,a mercantile establishment for the retail sale of goods or services
 banquet_hall_indoor,banquet,hall,"['hallway.n.01', 'anteroom.n.01', 'hall.n.03', 'dormitory.n.01', 'manor_hall.n.01', 'hall.n.06', 'hall.n.07', 'hall.n.08', 'hall.n.09', 'hall.n.10', 'mansion.n.02', 'hall.n.12', 'hall.n.13']",hall.n.03,a large room for gatherings or entertainment

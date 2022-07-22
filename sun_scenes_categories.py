@@ -35,6 +35,8 @@ for x in scenes['scene'].values:
                  "segmented": segmented,
                  "filenames": filenames})
 
+
+
 data = pd.DataFrame(data)
 data.set_index(["segmented"], inplace=True)
 
@@ -115,7 +117,12 @@ new_labels = pd.read_csv('scene_labels/new_labels_scene.csv', index_col=False)
 for label in new_labels['original'].values:
     new_label, = new_labels[new_labels['original'] == label]['new'].values
     data.rename(index={label: new_label}, inplace=True)
-    print(label + ' -> ' + new_label)
+    # print(label + ' -> ' + new_label)
+
+
+if not os.path.exists('scene_labels/label_filenames_scene.csv'):
+    data.to_csv('scene_labels/label_filenames_scene.csv')
+
 
 # creiamo la lista delle labels finali mappate du wordnet
 
@@ -127,12 +134,47 @@ if not os.path.exists('scene_labels/wordnet_scene_final_labels.txt'):
     f = open('scene_labels/wordnet_scene_final_labels.txt', 'w+')
     f.writelines("%s\n" % r for r in rows)
 
+# creazione dataset con struttura
+# ,original,filenames,spec,concept,adj,syn_chosen_spec,syn_chosen_concept
+
+data_new = pd.read_csv('scene_labels/new_chosen_concept_scene.csv', index_col='Unnamed: 0')
+
+# data ,original,filenames
+# data_new ,spec,concept,syn_concept,syn_chosen_concept,def_chosen_concept
+dataset = pd.merge(data, data_new, left_index=True, right_index=True, how='left')
+
+dataset.drop(columns=['syn_concept', 'def_chosen_concept'], inplace=True)
+
+dataset.insert(loc=4, column='adj', value=np.nan)
+dataset.insert(loc=5, column='syn_chosen_spec', value=np.nan)
+
+if not os.path.exists('scene_labels/dataset.csv'):
+    dataset.to_csv('scene_labels/dataset.csv')
+
+dataset = pd.read_csv('scene_labels/dataset.csv', index_col='Unnamed: 0')
+
+for label in dataset.index:
+    if pd.isna(dataset.loc[label]['concept']):
+        dataset.loc[label, ['concept']] = label
+    dataset.loc[label, ['concept']] = dataset.loc[label]['concept'].replace('+', '_')
+
+for label in dataset.index:
+    if pd.isna(dataset.loc[label]['syn_chosen_concept']) and len(wn.synsets(dataset.loc[label]['concept'], pos='n')) == 1:
+        dataset.loc[label, ['syn_chosen_concept']] = wn.synsets(dataset.loc[label]['concept'], pos='n')[0].name()
+
+dataset.to_csv('dataset.csv')
+
+
+
+
+
+
 # scrittura dei dati secondo l'idea spec_concept_adj
 # data: (label), original, filenames
 # TODO da fare dopo aver fatto a parte la disambiguazione e il merge
 
 adj = {'outdoor': 1, 'indoor': 1, 'exterior': 1, 'interior': 1}
-keys = ['original', 'new', 'spec', 'concept', 'adj', 'chosen_syn_spec', 'chosen_syn_concept']
+keys = ['original', 'spec', 'concept', 'adj', 'chosen_syn_spec', 'chosen_syn_concept']
 
 struct = []
 for label in data.index:

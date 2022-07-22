@@ -1,0 +1,83 @@
+,spec,concept,syn_concept,syn_chosen_concept,def_chosen_concept
+0,lab,classroom,['classroom.n.01'],classroom.n.01,a room in a school where lessons take place
+1,,warehouse,['warehouse.n.01'],warehouse.n.01,a storehouse for goods and merchandise
+2,front,foyer,['anteroom.n.01'],anteroom.n.01,a large entrance or reception room or area
+3,hotel,lobby,"['anteroom.n.01', 'lobby.n.02', 'lobby.n.03']",anteroom.n.01,a large entrance or reception room or area
+4,city,street,"['street.n.01', 'street.n.02', 'street.n.03', 'street.n.04', 'street.n.05']",street.n.01,a thoroughfare (usually including sidewalks) that is lined with buildings
+5,,church,"['church.n.01', 'church.n.02', 'church_service.n.01', 'church.n.04']",church.n.02,a place for public (especially Christian) worship
+6,dry,mountains,"['mountain.n.01', 'batch.n.02']",mountain.n.01,a land mass that projects well above its surroundings; higher than a hill
+7,copy,room,"['room.n.01', 'room.n.02', 'room.n.03', 'room.n.04']",room.n.01,an area within a building enclosed by walls and floor and ceiling
+8,sculpture,garden,"['garden.n.01', 'garden.n.02', 'garden.n.03']",garden.n.01,a plot of ground where plants are cultivated
+9,bathroom,sink,"['sink.n.01', 'sink.n.02', 'sinkhole.n.01', 'cesspool.n.01']",sink.n.01,plumbing fixture consisting of a water basin fixed to a wall or floor and having a drainpipe
+10,,tree_house,['tree_house.n.01'],tree_house.n.01,a playhouse built in the branches of a tree
+11,front,lawn,['lawn.n.01'],lawn.n.01,a field of cultivated and mowed grass
+12,,mall,"['promenade.n.02', 'plaza.n.02']",plaza.n.02,mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers; usually includes restaurants and a convenient parking area; a modern version of the traditional marketplace
+13,skate,park,"['park.n.01', 'park.n.02', 'ballpark.n.01', 'park.n.04', 'parking_lot.n.01', 'park.n.06']",park.n.02,a piece of open land for recreational use in an urban area
+14,flower,shop,"['shop.n.01', 'workshop.n.01', 'shop_class.n.01']",shop.n.01,a mercantile establishment for the retail sale of goods or services
+15,fish,market,"['market.n.01', 'market.n.02', 'grocery_store.n.01', 'market.n.04', 'marketplace.n.02']",marketplace.n.02,an area in a town where a public mercantile establishment is set up
+16,fabric,store,"['shop.n.01', 'store.n.02', 'memory.n.04', 'storehouse.n.01']",shop.n.01,a mercantile establishment for the retail sale of goods or services
+17,campus,quad,"['quadruplet.n.02', 'quadriceps.n.01', 'quad.n.03', 'quad.n.04']",quad.n.04,a rectangular area surrounded on all sides by buildings
+18,,van,"['avant-garde.n.01', 'vanguard.n.01', 'van.n.03', 'van.n.04', 'van.n.05']",van.n.05,a truck with an enclosed cargo space
+19,desert,sand_dune,['dune.n.01'],dune.n.01,a ridge of sand created by the wind; found in deserts or near lakes and oceans
+20,horse,racetrack,['racetrack.n.01'],racetrack.n.01,a course over which races are run
+21,art,studio,"['studio.n.01', 'studio_apartment.n.01', 'studio.n.03']",studio.n.01,workplace for the teaching or practice of an art
+22,,glaciers,['glacier.n.01'],glacier.n.01,a slowly moving mass of ice
+23,airplane,cabin,"['cabin.n.01', 'cabin.n.02', 'cabin.n.03']",cabin.n.03,the enclosed compartment of an aircraft or spacecraft where passengers are carried
+24,,restroom,['public_toilet.n.01'],public_toilet.n.01,a toilet that is available to the public
+25,ticket,office,"['office.n.01', 'agency.n.01', 'function.n.03', 'office.n.04', 'office.n.05', 'office.n.06', 'position.n.06']",office.n.01,place of business where professional or clerical duties are performed
+26,dance,studio,"['studio.n.01', 'studio_apartment.n.01', 'studio.n.03']",studio.n.01,workplace for the teaching or practice of an art
+27,exercise,equipment,['equipment.n.01'],equipment.n.01,an instrumentality needed for an undertaking or to perform a service
+28,soccer,field,"['field.n.01', 'battlefield.n.01', 'field.n.03', 'discipline.n.01', 'field.n.05', 'field.n.06', 'sphere.n.01', 'playing_field.n.02', 'plain.n.01', 'field.n.10', 'field.n.11', 'field.n.12', 'field.n.13', 'field.n.14', 'field.n.15', 'field.n.16', 'airfield.n.01']",playing_field.n.02,a piece of land prepared for playing a game
+29,,vineyard,['vineyard.n.01'],vineyard.n.01,a farm of grapevines where wine grapes are produced
+30,martial_arts,class,"['class.n.01', 'class.n.02', 'class.n.03', 'course.n.01', 'class.n.05', 'class.n.06', 'class.n.07', 'class.n.08']",course.n.01,education imparted in a series of lessons or meetings
+31,,car-mechanic,['automobile_mechanic.n.01'],automobile_mechanic.n.01,someone whose occupation is repairing and maintaining automobiles
+32,nail,salon,"['salon.n.01', 'salon.n.02', 'salon.n.03']",salon.n.0,a shop where hairdressers and beauticians work
+33,bridal,boutique,['boutique.n.01'],boutique.n.01,a shop that sells women's clothes and jewelry
+34,bike,rack,"['rack.n.01', 'rack.n.02', 'wrack.n.02', 'rack.n.04', 'rack.n.05', 'rack.n.06', 'rack.n.07']",rack.n.01,framework for holding objects
+35,childs,room,"['room.n.01', 'room.n.02', 'room.n.03', 'room.n.04']",room.n.01,an area within a building enclosed by walls and floor and ceiling
+36,,parking,"['parking.n.01', 'parking.n.02']",parking.n.01,space in which vehicles can be parked
+37,home,garden,"['garden.n.01', 'garden.n.02', 'garden.n.03']",garden.n.01,a plot of ground where plants are cultivated
+38,,metro,['metro.n.01'],metro.n.01,an electric railway operating below the surface of the ground (usually in a city)
+39,,cabin,"['cabin.n.01', 'cabin.n.02', 'cabin.n.03']",cabin.n.02,a small house built of wood; usually in a wooded area
+40,photographer,studio,"['studio.n.01', 'studio_apartment.n.01', 'studio.n.03']",studio.n.01,workplace for the teaching or practice of an art
+41,car,washing,"['wash.n.02', 'laundry.n.01']",wash.n.02,the work of cleansing (usually with soap and water)
+42,dry,cleaners,"['cleaners.n.01', 'cleansing_agent.n.01', 'cleaner.n.02', 'cleaner.n.03']",cleaners.n.01,shop where dry cleaning is done
+43,,rv,['recreational_vehicle.n.01'],recreational_vehicle.n.01,a motorized wheeled vehicle used for camping or other recreational activities
+44,lamp,store,"['shop.n.01', 'store.n.02', 'memory.n.04', 'storehouse.n.01']",shop.n.01,a mercantile establishment for the retail sale of goods or services
+45,forest,path,"['way.n.05', 'path.n.02', 'path.n.03', 'path.n.04']",path.n.04,a line or route along which something travels or moves
+46,eyeglass,store,"['shop.n.01', 'store.n.02', 'memory.n.04', 'storehouse.n.01']",shop.n.01,a mercantile establishment for the retail sale of goods or services
+47,bakery,kitchen,['kitchen.n.01'],kitchen.n.01,a room equipped for preparing meals
+48,olympic,swimming_pool,['swimming_pool.n.01'],swimming_pool.n.01,pool that provides a facility for swimming
+49,farmer,mart,['marketplace.n.02'],marketplace.n.02,an area in a town where a public mercantile establishment is set up
+50,music,store,"['shop.n.01', 'store.n.02', 'memory.n.04', 'storehouse.n.01']",shop.n.01,a mercantile establishment for the retail sale of goods or services
+51,banquet,hall,"['hallway.n.01', 'anteroom.n.01', 'hall.n.03', 'dormitory.n.01', 'manor_hall.n.01', 'hall.n.06', 'hall.n.07', 'hall.n.08', 'hall.n.09', 'hall.n.10', 'mansion.n.02', 'hall.n.12', 'hall.n.13']",hall.n.03,a large room for gatherings or entertainment
+52,construction,site,"['site.n.01', 'site.n.02', 'web_site.n.01']",site.n.01,the piece of land on which something is located (or is to be located)
+53,snow,mountain,"['mountain.n.01', 'batch.n.02']",mountain.n.01,a land mass that projects well above its surroundings; higher than a hill
+54,pool,hall,"['hallway.n.01', 'anteroom.n.01', 'hall.n.03', 'dormitory.n.01', 'manor_hall.n.01', 'hall.n.06', 'hall.n.07', 'hall.n.08', 'hall.n.09', 'hall.n.10', 'mansion.n.02', 'hall.n.12', 'hall.n.13']",hall.n.03,a large room for gatherings or entertainment
+55,tv,studio,"['studio.n.01', 'studio_apartment.n.01', 'studio.n.03']",studio.n.01,workplace for the teaching or practice of an art
+56,,balcony,"['balcony.n.01', 'balcony.n.02']",balcony.n.02,a platform projecting from the wall of a building and surrounded by a balustrade or railing or parapet
+57,kindergarten,classroom,['classroom.n.01'],classroom.n.01,a room in a school where lessons take place
+58,rural,road,"['road.n.01', 'road.n.02']",road.n.01,an open way (generally public) for travel or transportation
+59,desert,vegetation,"['vegetation.n.01', 'vegetation.n.02', 'vegetation.n.03', 'vegetation.n.04']",vegetation.n.01,all the plant life in a particular region or period
+60,break,room,"['room.n.01', 'room.n.02', 'room.n.03', 'room.n.04']",room.n.01,an area within a building enclosed by walls and floor and ceiling
+61,weight,room,"['room.n.01', 'room.n.02', 'room.n.03', 'room.n.04']",room.n.01,an area within a building enclosed by walls and floor and ceiling
+62,,balcony,"['balcony.n.01', 'balcony.n.02']",balcony.n.02,a platform projecting from the wall of a building and surrounded by a balustrade or railing or parapet
+63,,rapids,['rapid.n.01'],rapid.n.01,a part of a river where the current is very fast
+64,mini,golf,['golf.n.01'],golf.n.01,a game played on a large open course with 9 or 18 holes; the object is use as few strokes as possible in playing all the holes
+65,,maze,"['maze.n.01', 'tangle.n.02']",maze.n.01,complex system of paths or tunnels in which it is easy to get lost
+66,restaurant,kitchen,['kitchen.n.01'],kitchen.n.01,a room equipped for preparing meals
+67,,stream,"['stream.n.01', 'stream.n.02', 'flow.n.03', 'stream.n.04', 'current.n.02']",stream.n.01,a natural body of running water flowing on or under the earth
+68,,bistro,['bistro.n.01'],bistro.n.01,a small informal restaurant; serves wine
+69,APPLE,store,"['shop.n.01', 'store.n.02', 'memory.n.04', 'storehouse.n.01']",shop.n.01,a mercantile establishment for the retail sale of goods or services
+70,bamboo,forest,"['forest.n.01', 'forest.n.02']",forest.n.01,the trees and other plants in a large densely wooded area
+71,bus,shelter,"['shelter.n.01', 'shelter.n.02', 'protection.n.04', 'tax_shelter.n.01', 'shelter.n.05']",shelter.n.02,protective covering that provides protection from the weather
+72,library,aisle,"['aisle.n.01', 'aisle.n.02', 'aisle.n.03']",aisle.n.02,passageway between seating areas as in an auditorium or passenger vehicle or between areas of shelves of goods as in stores
+73,,waterfall,['waterfall.n.01'],waterfall.n.01,a steep descent of the water of a river
+74,,elevator,"['elevator.n.01', 'elevator.n.02']",elevator.n.01,lifting device consisting of a platform or cage that is raised and lowered mechanically in a vertical shaft in order to move people from one floor to another in a building
+75,home,garage,"['garage.n.01', 'garage.n.02']",garage.n.01,an outbuilding (or part of a building) for housing automobiles
+76,yoga,studio,"['studio.n.01', 'studio_apartment.n.01', 'studio.n.03']",studio.n.01,workplace for the teaching or practice of an art
+77,,boat,"['boat.n.01', 'gravy_boat.n.01']",boat.n.01,a small vessel for travel on water
+78,spa,room,"['room.n.01', 'room.n.02', 'room.n.03', 'room.n.04']",room.n.01,an area within a building enclosed by walls and floor and ceiling
+79,fitting,room,"['room.n.01', 'room.n.02', 'room.n.03', 'room.n.04']",room.n.01,an area within a building enclosed by walls and floor and ceiling
+80,car,showroom,['showroom.n.01'],showroom.n.01,an area where merchandise (such as cars) can be displayed
+81,car,racetrack,['racetrack.n.01'],racetrack.n.01,a course over which races are run
